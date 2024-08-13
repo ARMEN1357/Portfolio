@@ -204,12 +204,6 @@ td {
     margin: 30px;
 }
 
-.Portfolio_img:hover {
-    transition: 0.4s;
-    width: 570px;
-    height: 320px;
-}
-
 .Portfolio_img_1 {
     width: 500px;
     height: 250px;
@@ -218,18 +212,6 @@ td {
 .Portfolio_img_2 {
     width: 500px;
     height: 250px;
-}
-
-.Portfolio_img_1:hover {
-    transition: 0.4s;
-    width: 570px;
-    height: 320px;
-}
-
-.Portfolio_img_2:hover {
-    transition: 0.4s;
-    width: 570px;
-    height: 320px;
 }
 
 @keyframes poyavlenie {
