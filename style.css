@@ -1,0 +1,239 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Ubuntu", sans-serif;
+    opacity: 0;
+    animation: poyavlenie 2s forwards;
+    scroll-behavior: smooth;
+}
+
+header {
+    background-color: #4186D3;
+    align-items: center;
+    height: 80px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    height: 80px;
+    justify-content: space-evenly;
+    background-color: #4186D3;
+}
+
+.nav_a {
+    text-decoration: none;
+    margin: 30px;
+    color: white;
+    font-size: 18px;
+}
+
+.home {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: calc(100vh - 80px);
+    border-bottom: 2px solid black;
+}
+
+.pre_home {
+    text-align: center;
+    color: #104BA9;
+    font-size: 20px;
+}
+
+h1 {
+    margin: 10px;
+    text-align: center;
+    color: white;
+    background: #071C71;
+    font-size: 57px;
+    background-clip: text;
+    -webkit-text-stroke: 6px transparent;
+}
+
+h1 span {
+    color: white;
+    background: #104BA9;
+    background-clip: text;
+    -webkit-text-stroke: 6px transparent;
+}
+
+.home img {
+    height: 500px;
+    width: 500px;
+    border-radius: 100px;
+    margin: 50px;
+}
+
+.home img:hover {
+    transition: 2.5s;
+    transform: skew(9deg, 9deg);
+}
+
+.About_me {
+    border-bottom: 2px solid black;
+    height: 97vh;
+}
+
+.About_me img {
+    height: 300px;
+    width: 300px;
+    border-radius: 100px;
+}
+
+.About_me h2 {
+    color: blue;
+    text-align: center; 
+    margin: 50px; 
+    font-size: 50px;
+}
+
+.About_me p{ 
+    text-align: center; 
+    color: #104BA9; 
+    font-size: 20px; 
+    margin: 60px 0px 100px 0px; 
+}
+
+.About_me_d {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+table {
+    border: 3px solid rgb(140 140 140);
+    background-color: #313186;
+    width: 450px;
+    height: 300px;
+}
+
+td {
+    border: 1px solid rgb(160 160 160);
+    padding: 8px 10px;
+    color: white;
+}
+
+.My_skills {
+    border-bottom: 2px solid black;
+    height: 97vh;
+}
+
+.My_skills h2 {
+    color: blue;
+    text-align: center;
+    margin: 50px;
+    font-size: 50px;
+}
+
+.My_skills h3 {
+    color: blue; 
+    text-align: center; 
+    font-size: 35px;
+}
+
+.My_skills p {
+    margin: 20px; 
+    font-size: 25px; 
+    text-align: center;
+}
+
+.My_skills_div_2 {
+    background-color: aqua;
+    border: 3px solid blue;
+    width: 490px;
+    height: 480px;
+    box-shadow: 10px 10px 5px #4186D3;
+    margin: 20px;
+}
+
+.My_skills_div_1 {
+    background-color: aqua;
+    border: 3px solid blue;
+    width: 490px;
+    height: 480px;
+    box-shadow: 10px 10px 5px #4186D3;
+    margin: 20px;
+}
+
+.My_skills_div_1:hover {
+    transition: 1s;
+    box-shadow: 7px 7px 5px rgb(94, 94, 218);
+    transform: translateY(-15px);
+}
+
+.My_skills_div_2:hover {
+    transition: 1s;
+    box-shadow: 7px 7px 5px rgb(94, 94, 218);
+    transform: translateY(-15px);
+}
+
+.My_skills_div {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.Portfolio {
+    height: 97vh;
+}
+
+.Portfolio .Portfolio-div-1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.Portfolio .Portfolio-div-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Portfolio h2 {
+    color: blue; 
+    text-align: center; 
+    margin: 25px; 
+    font-size: 50px;
+}
+
+.Portfolio_img {
+    width: 455px;
+    height: 250px;
+    margin: 30px;
+}
+
+.Portfolio_img:hover {
+    transition: 0.4s;
+    width: 570px;
+    height: 320px;
+}
+
+.Portfolio_img_1 {
+    width: 500px;
+    height: 250px;
+}
+
+.Portfolio_img_2 {
+    width: 500px;
+    height: 250px;
+}
+
+.Portfolio_img_1:hover {
+    transition: 0.4s;
+    width: 570px;
+    height: 320px;
+}
+
+.Portfolio_img_2:hover {
+    transition: 0.4s;
+    width: 570px;
+    height: 320px;
+}
+
+@keyframes poyavlenie {
+      0% {opacity: 0;}
+      100% {opacity: 1;}
+}
+

@@ -1,0 +1,176 @@
+@media (min-width: 800px) and (max-width: 1024px) { 
+    header {
+        width: 1024px;
+    }
+
+    .pre_home {
+        font-size: 16px;
+    }
+
+    .home img {
+        margin: 30px;
+        height: 400px;
+        width: 400px;
+    }
+
+    .home {
+        width: 1024px;
+    }
+
+    .About_me {
+        width: 1024px;
+    }
+
+    .My_skills {
+        width: 1024px;
+    }
+
+    .Portfolio {
+        width: 1024px;
+    }
+
+    footer {
+        width: 1024px;
+    }
+}
+
+@media (min-width: 480px) and (max-width: 800px) {
+    header {
+        width: 812px;
+    }
+
+    .pre_home {
+        font-size: 15px;
+    }
+
+    .home {
+        width: 812px;
+    }
+
+    .home img {
+        margin: 30px;
+        height: 300px;
+        width: 300px;
+    }
+
+    .About_me {
+        width: 812px;
+    }
+
+    table {
+        width: 350px;
+        height: 270px;
+    }
+
+    .My_skills {
+        width: 812px;
+    }
+
+    .My_skills_div_1 {
+        height: 400px;
+        width: 350px;
+        margin: 0px;
+    }
+
+    .My_skills_div_2 {
+        height: 400px;
+        width: 350px;
+        margin: 0px;
+    }
+
+    .Portfolio {
+        width: 812px;
+    }
+
+    .Portfolio_img_1 {
+        height: 200px;
+        width: 400px;
+    }
+
+    .Portfolio_img_2 {
+        height: 200px;
+        width: 400px;
+    }
+
+    .Portfolio_img {
+        height: 200px;
+        width: 400px;
+    }
+
+    .Portfolio-div-1 {
+        margin-top: 60px;
+    }
+
+    footer {
+        width: 812px;
+    }
+}
+
+@media (min-width: 330px) and (max-width: 480px) {
+    header {
+        width: 689px;
+    }
+
+    .home {
+        margin-top: 50px;
+        width: 689px;
+        height: 700px;
+        display: block;
+        justify-content: center;
+    }
+
+    .pre_home {
+        text-align: center;
+        width: 689px;
+    }
+    
+    h1 {
+        text-align: center;
+        width: 689px;
+        margin: 0px;
+    }
+
+    .home img {
+        position: relative;
+        height: 400px;
+        width: 400px;
+        left: 95px;
+    }
+
+    .About_me {
+        width: 689px;
+    }
+
+    .My_skills {
+        width: 689px;
+    }
+
+    .Portfolio {
+        width: 689px;
+        height: 1000px;
+    }
+
+    .Portfolio .Portfolio-div-1 {
+        display: block;
+    }
+
+    .Portfolio_img_1 {
+        width: 455px;
+        height: 250px;
+        position: relative;
+        left: 117px;
+        margin: 30px 0px 30px 0px;
+    }
+
+    .Portfolio_img_2 {
+        width: 455px;
+        height: 250px;
+        position: relative;
+        left: 117px;
+        margin: 30px 0px 30px 0px;
+    }
+
+    footer {
+        width: 689px;
+    }
+}
