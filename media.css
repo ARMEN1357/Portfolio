@@ -1,4 +1,4 @@
-/* @media (min-width: 800px) and (max-width: 1024px) { 
+@media (min-width: 800px) and (max-width: 1024px) { 
     header {
         width: 1024px;
     }
@@ -168,9 +168,9 @@
         position: relative;
         left: 117px;
         margin: 30px 0px 30px 0px;
-    } */
-
-/*     footer {
+    } 
+    
+    footer {
         width: 689px;
     }
-} */
+}
