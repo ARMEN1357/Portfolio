@@ -15,18 +15,22 @@
 
     .home {
         width: 1024px;
+        height: 600px;
     }
 
     .About_me {
         width: 1024px;
+        height: 700px; 
     }
 
     .My_skills {
         width: 1024px;
+        height: 700px;
     }
 
     .Portfolio {
         width: 1024px;
+        height: 650px;
     }
 
     footer {
@@ -45,6 +49,7 @@
 
     .home {
         width: 812px;
+        height: 500px;
     }
 
     .home img {
@@ -55,6 +60,7 @@
 
     .About_me {
         width: 812px;
+        height: 650px;
     }
 
     table {
@@ -64,6 +70,7 @@
 
     .My_skills {
         width: 812px;
+        height: 600px;
     }
 
     .My_skills_div_1 {
@@ -80,6 +87,7 @@
 
     .Portfolio {
         width: 812px;
+        height: 600px;
     }
 
     .Portfolio_img_1 {
@@ -139,10 +147,12 @@
 
     .About_me {
         width: 689px;
+        height: 700px;
     }
 
     .My_skills {
         width: 689px;
+        height: 700px;
     }
 
     .Portfolio {
@@ -168,8 +178,8 @@
         position: relative;
         left: 117px;
         margin: 30px 0px 30px 0px;
-    } 
-    
+    }
+
     footer {
         width: 689px;
     }
